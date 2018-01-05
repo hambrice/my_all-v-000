@@ -10,4 +10,5 @@ end
 block_return_values.include?(false)
 end
 
-my_all?([1,2,3,4]){|i| i < 3}
+x = my_all?([1,2,3,4]){|i| i < 3}
+puts x 
